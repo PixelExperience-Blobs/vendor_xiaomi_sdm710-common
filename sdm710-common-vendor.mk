@@ -381,6 +381,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOpenCL.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQSEEComAPI.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libQTEEConnector_vendor.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libRSDriver_adreno.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSecureUILib.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib/libVkLayer_q3dtools.so \
@@ -483,6 +484,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib/libril-qcril-hook-oem.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib/librilqmiservices.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib/librpmb.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib/librs_adreno_sha1.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveCommon_stub.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib/libscveObjectSegmentation.so \
@@ -620,6 +623,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbatterylistener.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbccQTI.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcomprcapture.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexthwplugin.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhdmiedid.so \
@@ -693,6 +697,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libQSEEComAPI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQSEEComAPI.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libQTEEConnector_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libQTEEConnector_vendor.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libRSDriver_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libRSDriver_adreno.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libSecureUILib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSecureUILib.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libVkLayer_q3dtools.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_q3dtools.so \
@@ -793,6 +798,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libril-qcril-hook-oem.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libril-qcril-hook-oem.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/librilqmiservices.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librilqmiservices.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libscveCommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libscveCommon_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveCommon_stub.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libscveObjectSegmentation.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscveObjectSegmentation.so \
@@ -921,6 +928,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.xiaomi.hardware.mtdservice@1.0.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
+    vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libcomprcapture.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcomprcapture.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libexthwplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexthwplugin.so \
     vendor/xiaomi/sdm710-common/proprietary/vendor/lib64/libhdmiedid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdmiedid.so \
