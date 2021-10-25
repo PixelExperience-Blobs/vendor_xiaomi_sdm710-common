@@ -981,5 +981,4 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
-    WfdCommon \
     vendor.qti.gnss@4.0-service
